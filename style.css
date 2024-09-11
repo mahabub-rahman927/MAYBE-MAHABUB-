@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('img/backdrop/wp.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(23, 23, 23, 0.7);
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #ffffff;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-family: 'Raleway';
+    font-size: 24px;
+    margin: 5px 0;
+    font-weight: 200;
+}
+
+.bio {
+    font-family: 'NightinTokyo';
+    color: #dddddd;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    background-color: #3a3a3a;
+    color: #ffffff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'nuku';
+    transition: background 0.3s, transform 0.3s;
+}
+
+.link img {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.link span {
+    flex: 1;
+    text-align: center;
+}
+
+.link:hover {
+    background-color: #4c4c4c;
+    transform: translateY(-3px);
+}
+
+footer {
+    font-family: 'NightinTokyo';
+    margin-top: 20px;
+    font-size: 12px;
+    color: #dddddd;
+    font-weight: 800;
+}
+@font-face{
+    font-family: 'Raleway';
+    src: url('font/Raleway/Raleway-VariableFont_wght.ttf');
+}
+@font-face{
+    font-family: 'HIROSHT';
+    src: url('font/hirosh/HIROSHT.TTF');
+}
+@font-face{
+    font-family: 'NightinTokyo';
+    src: url('font/night-in-tokyo/NightinTokyo.ttf');
+}
+@font-face{
+    font-family: 'nuku';
+    src: url('font/nuku-nuku/nuku1.ttf');
+}
